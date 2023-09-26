@@ -1,0 +1,66 @@
+
+
+.addmeeting {
+    text-align: center;
+    margin: 10px 30%;
+
+}
+
+.meetinginput {
+    padding: 20px 15px;
+    margin-bottom: 20px;
+    border-radius: 10px;
+    width: 100%;
+    box-sizing: border-box;
+    font-size: 17px;
+}
+
+.meetingbtn {
+    padding: 10px 2px;
+    border-radius: 10px;
+    width: 35%;
+    box-sizing: border-box;
+    background-color: black;
+    color: white;
+    font-size: 20px;
+}
+
+
+@media screen and (max-width: 768px){
+
+    .addmeeting {
+        text-align: center;
+        margin: 10px 10%;
+    
+    }
+}
+
+@media screen and (max-width: 400px){
+
+    .addmeeting {
+        text-align: center;
+        margin: 10px;
+    
+    
+    }
+    
+    .meetinginput {
+        padding: 10px 5px;
+        margin-bottom: 20px;
+        border-radius: 10px;
+        width: 100%;
+        box-sizing: border-box;
+        font-size: 13px;
+    }
+    
+    .meetingbtn {
+        padding: 3px;
+        border-radius: 10px;
+        box-sizing: border-box;
+        background-color: black;
+        color: white;
+        font-size: 10px;
+    }
+
+    
+}

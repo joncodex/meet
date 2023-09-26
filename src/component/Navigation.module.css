@@ -1,0 +1,194 @@
+body {
+    box-sizing: border-box;
+    overflow-x: hidden;
+}
+
+* {
+    box-sizing: border-box;
+}
+
+
+.navcontainer {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    justify-items: center;
+    margin: 20px 10vw;
+    /* border: 2px solid red ; */
+    padding: 5px 0;
+    box-sizing: border-box;
+}
+
+
+.logo {
+    border: 2px grey solid;
+    border-radius: 20px;
+    color: white;
+    padding: 15px;
+    background-color: black;
+    text-decoration: none;
+    font-style: italic;
+    background-image: linear-gradient(to right, red, green, yellow);
+    -webkit-background-clip: text;
+    mix-blend-mode: darken;
+    -webkit-text-fill-color: transparent ;
+}
+
+.pan {
+    /* color: rgb(143, 143, 4); */
+    font-style: italic;
+    margin: 0;
+    padding: 0%;    
+}
+
+.nav {
+    
+    display: flex;
+    list-style: none;
+    align-items: center;
+    padding: 10px;
+}
+
+.home {
+    
+    text-decoration: none;
+    color: black;
+    cursor: pointer;
+    margin: 30px;
+    padding: 20px;
+}
+.home:hover {
+    background-color: rgb(121, 121, 121);
+    color: white;
+    border-radius: 25px;
+    cursor: pointer; 
+
+}
+
+.addmeeting {
+    
+    background-color: black;
+    text-decoration: none;
+    color: white;
+    border-radius: 25px;
+    padding: 20px;
+    margin:  20px 0 0 0;
+    cursor: pointer;
+    
+}
+
+.addmeeting:hover {
+
+    background-color: rgb(121, 121, 121);
+    color: white;
+    cursor: pointer;
+    
+
+}
+
+@media screen and (max-width: 640px) {
+    .navcontainer {
+
+        width: 100%;
+        margin: 10px 2px;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        font-size: 10px;
+        
+    }
+    .logo {
+        margin-left:40%;
+        padding: 10px;
+        margin-top: 0%;
+        text-align: center;
+        
+    }
+    .nav {
+        flex-direction: row;
+        justify-content: space-between;
+        width: 100%;
+        /* border: 2px green solid; */
+        box-sizing: border-box;
+
+    }
+
+    .addmeeting {
+    
+        padding: 20px;
+        margin-right: 4px;
+        cursor: pointer;
+        border-radius: 10px;
+    }
+    
+
+    .home {
+    
+        /* background-color: black; */
+        border: 2px black solid;
+        text-decoration: none;
+        border-radius: 15px;
+        cursor: pointer;
+        padding: 20px;
+        border-radius: 10px;
+    }
+    .home:hover {
+        background-color: rgb(121, 121, 121);
+        color: white;
+        border-radius: 25px;
+        cursor: pointer; 
+    
+    }
+    
+}
+
+
+@media screen and (max-width: 300px) {
+    .navcontainer {
+
+        width: 100%;
+        margin: 10px 2px;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        font-size: 6px;
+
+        
+    }
+
+    
+    .home {
+    
+        padding: 7px 20px;
+        border-radius: 10px;
+        list-style: none;
+        
+    }
+    .home:hover {
+        background-color: rgb(121, 121, 121);
+        color: white;
+        border-radius: 25px;
+        cursor: pointer; 
+    
+    }
+
+    .addmeeting {
+    
+        padding: 7px 10px;
+     }
+
+    .logo {
+        margin-left:40%;
+        margin-top: 0%;
+        text-align: center;
+        padding: 7px 7px;
+        border-radius: 10px;
+        
+    }
+
+
+
+
+
+
+}

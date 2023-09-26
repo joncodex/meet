@@ -1,0 +1,102 @@
+
+
+.allmeetingsheader {
+    text-align: center;
+}
+
+.loading {
+    text-align: center;
+    height: 70vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: red;
+    font-size: 25px;
+}
+
+.d_none {
+    display: none;
+}
+
+.meetingcardoverallcontainer {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    flex-wrap: wrap;
+
+}
+.meetingcard {
+    box-shadow: 2px 5px 4px 3px #888888;
+    border: 1px  rgb(117, 116, 116), solid;
+    width: 450px;
+    height: 270px;
+    overflow-y: scroll;
+    overflow-x: hidden;
+    padding: 0px 0px;
+    border-radius: 20px;
+    margin: 4px;
+    box-sizing: border-box;
+}
+
+.meetingcard::-webkit-scrollbar {
+    display: none;
+  /* Hide scrollbar for IE, Edge and Firefox */
+    scrollbar-width: none;
+    -ms-overflow-style: none;
+}
+
+.meetingcardimg {
+    width: 100%;
+    height: 60%;
+    position:sticky;
+    top:0;
+    right: 0%;
+    /* position: absolute; */
+    border-radius: 20px;
+}
+
+.meetingcardtext {
+    /* position: absolute; */
+    width: 100%;
+    padding: 0px 10px;
+    box-sizing: border-box;
+
+}
+
+.meetingcardtitle{
+    font-size: 20px;
+    font-weight: bold;
+}
+
+@media screen and (max-width: 620px) {
+    .meetingcard {
+        box-shadow: 2px 5px 4px 3px #888888;
+        border: 1px  rgb(117, 116, 116), solid;
+        width: 340px;
+        height: 270px;
+        overflow-y: scroll;
+        overflow-x: hidden;
+        padding: 0px 0px;
+        border-radius: 20px;
+        margin: 4px;
+        box-sizing: border-box;
+    }
+    
+}
+
+
+@media screen and (max-width: 300px) {
+.meetingcard {
+    box-shadow: 2px 5px 4px 3px #888888;
+    border: 1px  rgb(117, 116, 116), solid;
+    width: 95%;
+    height: 250px;
+    overflow-y: scroll;
+    overflow-x: hidden;
+    padding: 0px 0px;
+    border-radius: 20px;
+    margin: 4px auto;
+    box-sizing: border-box;
+}
+
+}
