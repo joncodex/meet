@@ -3,7 +3,7 @@ import style from '../pages/Home.module.css'
 
 function Meetingcard(props) {
     return (
-        <div>
+        <div className={style.meetingcardoverallcontainer}>
 
             <div className={style.meetingcard}>
 

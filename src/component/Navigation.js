@@ -9,7 +9,7 @@ function Navigation () {
 
         
         <ul className={style.nav}>
-            <li> <Link className={style.home} to='/'>Home</Link> </li>
+            <li> <Link className={style.addmeeting} to='/'>Home</Link> </li>
             <li> <Link className={style.addmeeting} to='/add' >Add Meetings</Link> </li>
         
         </ul>
